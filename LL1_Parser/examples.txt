@@ -1,0 +1,270 @@
+/*
+
+4 3 8
+S:BD
+S:d
+B:CDaB
+B:#
+C:cC
+C:#
+D:a
+D:#
+
+FirstPos:
+----------
+S >> cad
+B >> ca#
+C >> c#
+D >> a#
+
+FollowPos:
+----------
+S >> $
+B >> a$
+C >> a
+D >> $a
+
+
+3 3 5
+S:BC
+S:d
+B:aB
+B:#
+C:cC
+
+FirstPos:
+----------
+S >> acd
+B >> a#
+C >> c
+
+FollowPos:
+----------
+S >> $
+B >> c
+C >> $
+
+
+3 4 5
+S:aABb
+A:c
+A:#
+B:d
+B:#
+
+FirstPos:
+----------
+S >> a
+A >> c#
+B >> d#
+
+FollowPos:
+----------
+S >> $
+A >> db
+B >> b
+
+
+6 6 9
+S:aBDh
+B:cC
+C:bC
+C:#
+D:EF
+E:g
+E:#
+F:f
+F:#
+
+FirstPos:
+----------
+S >> a
+B >> c
+C >> b#
+D >> gf#
+E >> g#
+F >> f#
+
+FollowPos:
+----------
+S >> $
+B >> gfh
+C >> gfh
+D >> h
+E >> fh
+F >> h
+
+
+6 5 10
+S:ABCDE
+A:a
+A:#
+B:b
+B:#
+C:c
+D:d
+D:#
+E:e
+E:#
+
+FirstPos:
+----------
+S >> abc
+A >> a#
+B >> b#
+C >> c
+D >> d#
+E >> e#
+
+FollowPos:
+----------
+S >> $
+A >> bc
+B >> c
+C >> de$
+D >> e$
+E >> $
+
+3 4 6
+S:Bb
+S:Cd
+B:aB
+B:#
+C:cC
+C:#
+
+FirstPos:
+----------
+S >> abcd
+B >> a#
+C >> c#
+
+FollowPos:
+----------
+S >> $
+B >> b
+C >> d
+
+
+5 5 8
+E:TY
+Y:+TY
+Y:#
+T:FZ
+Z:*FZ
+Z:#
+F:i
+F:(E)
+
+FirstPos:
+----------
+E >> i(
+Y >> +#
+T >> i(
+Z >> *#
+F >> i(
+
+FollowPos:
+----------
+E >> $)
+Y >> $)
+T >> +$)
+Z >> +$)
+F >> *+$)
+
+
+5 5 9
+E:TY
+Y:+TY
+Y:#
+T:FZ
+Z:*FZ
+Z:#
+F:i
+F:(E)
+F:#
+
+FirstPos:
+----------
+E >> i(*+#
+Y >> +#
+T >> i(*#
+Z >> *#
+F >> i(#
+
+FollowPos:
+----------
+E >> $)
+Y >> $)
+T >> +$)
+Z >> +$)
+F >> *+$)
+
+
+4 5 9
+S:ACB
+S:CbB
+S:Ba
+A:da
+A:BC
+B:g
+B:#
+C:h
+C:#
+
+FirstPos:
+----------
+S >> dghba#
+A >> dgh#
+B >> g#
+C >> h#
+
+FollowPos:
+----------
+S >> $
+A >> hg$
+B >> $ahg
+C >> g$bh
+
+
+9 5 14
+E:TY
+Y:+TY
+Y:#
+T:FZ
+Z:*FZ
+Z:#
+F:ACD
+F:B
+F:#
+A:i
+A:#
+B:(E)
+C:#
+D:#
+
+FirstPos:
+----------
+E >> i(*+#
+Y >> +#
+T >> i(*#
+Z >> *#
+F >> i(#
+A >> i#
+B >> (
+C >> #
+D >> #
+
+FollowPos:
+----------
+E >> $)
+Y >> $)
+T >> +$)
+Z >> +$)
+F >> *+$)
+A >> *+$)
+B >> *+$)
+C >> *+$)
+D >> *+$)
+
+*/
